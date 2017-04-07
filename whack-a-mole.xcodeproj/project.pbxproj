@@ -12,6 +12,8 @@
 		C9D562F01E95DE7E00402D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D562EE1E95DE7E00402D83 /* Main.storyboard */; };
 		C9D562F21E95DE7E00402D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D562F11E95DE7E00402D83 /* Assets.xcassets */; };
 		C9D562F51E95DE7E00402D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D562F31E95DE7E00402D83 /* LaunchScreen.storyboard */; };
+		C9D562FE1E95DEEB00402D83 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D562FC1E95DEEB00402D83 /* Game.swift */; };
+		C9D562FF1E95DEEB00402D83 /* Mole.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D562FD1E95DEEB00402D83 /* Mole.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C9D562F11E95DE7E00402D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9D562F41E95DE7E00402D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9D562F61E95DE7E00402D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D562FC1E95DEEB00402D83 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C9D562FD1E95DEEB00402D83 /* Mole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mole.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				C9D562EA1E95DE7E00402D83 /* AppDelegate.swift */,
+				C9D562FC1E95DEEB00402D83 /* Game.swift */,
+				C9D562FD1E95DEEB00402D83 /* Mole.swift */,
 				C9D562EC1E95DE7E00402D83 /* ViewController.swift */,
 				C9D562EE1E95DE7E00402D83 /* Main.storyboard */,
 				C9D562F11E95DE7E00402D83 /* Assets.xcassets */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D562ED1E95DE7E00402D83 /* ViewController.swift in Sources */,
+				C9D562FE1E95DEEB00402D83 /* Game.swift in Sources */,
+				C9D562FF1E95DEEB00402D83 /* Mole.swift in Sources */,
 				C9D562EB1E95DE7E00402D83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AH8JLC9VB3;
 				INFOPLIST_FILE = "whack-a-mole/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gaelen.whack-a-mole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AH8JLC9VB3;
 				INFOPLIST_FILE = "whack-a-mole/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gaelen.whack-a-mole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
